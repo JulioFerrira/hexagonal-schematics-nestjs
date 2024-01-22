@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "hexagonal-module": {
+      "description": "Generates a hexagonal module.",
+      "factory": "./hexagonal-module/index#generate",
+      "schema": "./hexagonal-module/schema.json"
+    }
+  }
+}
